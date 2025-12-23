@@ -5,9 +5,11 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+@theme{
+  --color-main: #1F4529;
+  --color-sub: #4E8989;
+  --color-merino: #F5EFE0;
+  --color-butt: #B8E6B8;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -23,4 +25,27 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ol,
+ul,
+li{
+  margin: 0;
+}
+
+dl,
+dd,
+dt{
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
 }
