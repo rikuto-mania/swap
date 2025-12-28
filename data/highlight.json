@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "title":"タイトル1",
+        "subtitle":"サブタイトル1",
+        "description":"ここに説明が入ります。",
+        "image":"/640f3acaa018fdf5091278be_logistikos-skaitmenizavimo-sistema.jpg"
+    },
+    {
+        "id":2,
+        "title":"タイトル2",
+        "subtitle":"サブタイトル2",
+        "description":"ここに説明が入ります。2",
+        "image":"/640f3acaa018fdf5091278be_logistikos-skaitmenizavimo-sistema.jpg"
+    }
+]
