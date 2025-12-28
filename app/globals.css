@@ -52,11 +52,14 @@ h6{
 }
 
 
+
+/* ページタイトル装飾 */
 .top-circle{
   border-radius: 6000px 6000px / 300px 300px 0 0 ;
   margin: 0px -200px;
   padding: 64px 200px;
 }
+
 
 .bottom-circle{
   border-radius: 0 0 2000px 2000px / 0 0 300px 300px;

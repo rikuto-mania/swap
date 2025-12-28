@@ -12,8 +12,8 @@ export default function Progress(){
             <Header />
             <div className="overflow-hidden">
                 <div className="bg-main bottom-circle text-white text-center">
-                    <p className="text-4xl font-bold pb-8">ああああああ</p>
-                    <p className="text-xl">ああああああああああああああああああああああああああああああ</p>
+                    <p className="text-4xl font-bold pb-8">Our Progress</p>
+                    <p className="text-xl">A high school student-led initiative tackling plastic waste in Japanese supermarkets</p>
                 </div>
             </div>
             <section>
