@@ -16,9 +16,8 @@ export default function Progress(){
                     <p className="text-xl">A high school student-led initiative tackling plastic waste in Japanese supermarkets</p>
                 </div>
             </div>
-            <section>
-                <p className="text-4xl text-center font-semibold">HighRights</p>
-
+            <p className="text-4xl text-center font-semibold py-20">HighRights</p>
+            <section className="pb-20">
 
                 {highlightData.map((item,index) =>{
                     const direction = index % 2 === 0 ? "left" : "right";
