@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Icon } from "@iconify/react";
 export default function Header(){
     return(
         <header className="bg-[#E8ECD7] p-4 flex justify-between w-full">
@@ -12,11 +13,18 @@ export default function Header(){
                     <li><Link href="/">Action</Link></li>
                     <li><Link href="/">Goals</Link></li>
                 </ul>
-                <select name="lang" className="bg-regentstblue px-4 py-2 rounded-lg">
-                    <option value="En">English</option>
-                    <option value="Ja">日本語</option>
-                    <option value="Vt" >Tiếng Việt</option>
-                </select>
+                <div className="flex items-center gap-2">
+                    <Icon 
+                        icon="mdi:translate" 
+                        width={20} 
+                        className="align-middle"
+                    />
+                    <select name="lang" className="bg-regentstblue px-4 py-2 rounded-lg">
+                        <option value="En">English</option>
+                        <option value="Ja">日本語</option>
+                        <option value="Vt">Tiếng Việt</option>
+                    </select>
+                </div>
             </div>
         </header>
     );
