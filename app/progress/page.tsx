@@ -1,5 +1,3 @@
-import Footer from "@/conponents/footer";
-import Header from "@/conponents/header"
 import Highlight from "@/conponents/highlight";
 
 
@@ -9,7 +7,6 @@ import highlightData from "../../data/highlight.json";
 export default function Progress(){
     return(
         <div>
-            <Header />
             <div className="overflow-hidden">
                 <div className="bg-main bottom-circle text-white text-center">
                     <p className="text-4xl font-bold pb-8">Our Progress</p>
@@ -32,7 +29,6 @@ export default function Progress(){
                     />
                    )})}
             </section>
-            <Footer />
         </div>
     );
 };
