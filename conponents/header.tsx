@@ -13,13 +13,13 @@ export default function Header(){
                     <li><Link href="/">Action</Link></li>
                     <li><Link href="/">Goals</Link></li>
                 </ul>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 bg-regentstblue px-4 py-2 rounded-lg">
                     <Icon 
                         icon="mdi:translate" 
                         width={20} 
                         className="align-middle"
                     />
-                    <select name="lang" className="bg-regentstblue px-4 py-2 rounded-lg">
+                    <select name="lang" className="">
                         <option value="En">English</option>
                         <option value="Ja">日本語</option>
                         <option value="Vt">Tiếng Việt</option>

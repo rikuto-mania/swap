@@ -13,6 +13,9 @@ export default function About(){
                 </div>
             </div>
             <p className="text-4xl text-center font-semibold py-20">Our Mission</p>
+            <section className="pb-20">
+                
+            </section>
             
             <Footer />
         </div>
