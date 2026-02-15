@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div>
       <div className=" bg-main flex flex-row items-center lg:h-[calc(100vh -83px)]">
         <div className="text-center px-4 py-8">
           <p className="text-5xl lg:text-7xl text-white font-light pb-4">SWAP</p>

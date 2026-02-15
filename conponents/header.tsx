@@ -8,8 +8,8 @@ export default function Header(){
                 <ul className="flex gap-6">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/">About us</Link></li>
-                    <li><Link href="/">Progress</Link></li>
-                    <li><Link href="/">Action</Link></li>
+                    <li><Link href="/progress">Progress</Link></li>
+                    <li><Link href="/actions">Action</Link></li>
                     <li><Link href="/">Goals</Link></li>
                 </ul>
                 <select name="lang" className="bg-regentstblue px-4 py-2 rounded-lg">
